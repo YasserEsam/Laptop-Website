@@ -1,0 +1,13 @@
+nav , .landing-page-images{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 40px 0px;
+    gap: 30px;
+}
+nav li {
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+}

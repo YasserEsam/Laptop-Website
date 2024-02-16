@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This is a webiste that shows three kinds of best sells laptops in the market HP - Lenovo - MSI">
+    <meta name="keywords" content="HP - MSI - Lenovo - Laptops - PC - Business  - Gaming">
+    <link rel="icon" href="assets/imags/page-icon.jpg" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Laptops Decription</title>
+</head>
+
+<body>
+
+    <!-- This is the Navigation Bar -->
+    <nav>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="laptops.html">All Laptops</a></li>
+        <li><a href="request-laptop.html">Ask For a Laptop</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </nav>
+
+    <section>
+        <form action="" method="get">
+            <div>
+                <label for="name">Write Your Name</label>
+                <input type="text" id="name" placeholder="Your Amazing Name" required autofocus>
+            </div>
+            <br>
+            <div>
+                <label for="email">Write Your Email</label>
+                <input type="email" id="email" placeholder="EX: yasser@gmail.com" required>
+            </div>
+            <br>
+            <div>
+                <label for="laptopss">chose your laptop </label>
+                <select id="laptopss">
+                    <optgroup label="HP">
+                        <option value="HP Elitbook">HP Elitbook</option>
+                        <option value="HP Probook">HP Probook</option>
+                        <option value="HP Zbook">HP Zbook</option>
+                    </optgroup>
+                    <optgroup label="MSI">
+                        <option value="MSI SOWRD">MSI SOWRD</option>
+                        <option value="MSI THIN">MSI THIN</option>
+                        <option value="MSI DONT know">MSI DONT know</option>
+                    </optgroup>
+                    <optgroup label="Lenovo">
+                        <option value="Lenovo E15">Lenovo E15</option>
+                        <option value="Lenovo T580">Lenovo T580</option>
+                        <option value="Lenovo Legio 5 pro">Lenovo Legio 5 pro</option>
+                    </optgroup>
+
+                </select>
+
+                <br><br>
+
+                <div>
+                    <label for="color">What is the color ?</label>
+                    <input type="color" name="color" id="color">
+                </div>
+
+                <br>
+                <div>
+                    <label for="price-range">What is the Price Range ?</label>
+                    <input type="range" name="price" id="price-range">
+                </div>
+                
+                <br>
+                <div>
+                    <label>which Operating System You Want ?</label>
+                    <br><br>
+                    <div>
+                        <input type="radio" name="OS" id="Win" value="Win">
+                        <label for="Win">Windows</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="OS" id="Lin" value="Lin">
+                        <label for="Lin">Linux</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="OS" id="no" value="no">
+                        <label for="no">No Oberating System</label>
+                    </div>
+                 
+                </div>
+
+
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
